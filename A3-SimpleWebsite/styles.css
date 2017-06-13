@@ -1,0 +1,187 @@
+/*
+* multi-line comment
+*/
+html,body{
+    height: 100%;
+}
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: orange;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+    /*font-size: 80%; */
+    line-height: 1.2em; 
+    width: 100%; 
+    margin: 0; 
+    background: #eee;
+    display: flex; 
+    flex-direction: column;
+    font-size: 16px;
+}
+
+h3 {
+	/*orphans: 3;*/
+    /*widows: 3;*/
+    page-break-after: avoid;
+    margin-bottom: .5rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px ;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* ************ FORMs ************* */
+
+fieldset {
+	width: 500px;
+	text-align: left;
+	border-color: #ffb424;
+	padding: 20px;
+}
+
+legend{
+	font-size: 20px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+/*input.textbox-300 {
+	width: 300px;
+	float: left;
+}*/
+fieldset p{
+	clear: both;
+	padding: 20px;
+}
+
+span.required{
+	color:red;
+	font-weight: bold;
+}
+
+#wrapper {
+	display:flex;
+	padding-left: 20px;
+}
+#first {
+    height: 400px;
+    float:right;
+
+}
+#second{
+	float: left;
+	width: 550px;
+}
+
+/* ******** Classes ****** */
+
+.mySlides{
+	width: 100%;
+	height: 500px;
+}
+
+.p-text{
+	
+}
+
+.text-muted {
+  color: #777;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-size: 15px ;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.img-about{
+	height: 500px;
+	position: relative;
+
+
+}
+
+/* ******** IDs ****** */
+#page{ 
+	margin: 20px; 
+	margin-right: 20%;
+	margin-left: 20%;
+ }
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+/* but try and be as concise as possible */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+
+
+#footer{
+	/*border-bottom: 1px #ccc solid;*/
+	margin-bottom: 10px;
+	position: absolute;
+	/*padding: 20px;*/
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }

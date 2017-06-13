@@ -1,0 +1,46 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: auto;
+  padding:20px;
+  font-family: Georgia, serif;
+
+}
+h1,h2{
+	text-align:  left;
+}
+
+fieldset {
+	width: 500px;
+	text-align: center;
+}
+
+legend{
+	font-size: 20px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+/*input.textbox-300 {
+	width: 300px;
+	float: left;
+}*/
+fieldset p{
+	clear: both;
+	padding: 20px;
+}
+
+span#required{
+	color:red;
+	font-weight: bold;
+}
+
+

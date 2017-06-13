@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: auto;
+  padding:20px;
+  font-family: Georgia, serif;
+
+}
+h1,h2{
+	text-align:  left;
+}
+
+table, th,td{
+	padding: 20px;
+	border:1px solid black;
+	border-collapse: collapse;
+	font-family: Georgia, serif;
+	font-size: 13px;
+}
+.month {
+	text-align: center;
+}
+table.A1 th{
+	background-color: #3399ff; 
+	color: white;
+}
+table.A1 tr:nth-child(even){
+	background-color: #99ccff; 
+}
+table.A1 tr:nth-child(odd){
+	background-color: #fff; 
+}
+
+td.col1{
+	text-align: left;
+}
+
+td.col2{
+	text-align: center;
+}
+
+td.col3{
+	text-align: right;
+}
+
+
+
+

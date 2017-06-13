@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="My Thao Nguyen" />
+	<meta name="description" content="A Kyoto Travel Tour site" />
+
+	<!-- CSS LINK -->
+	 <link href="styles.css" rel="stylesheet">
+	<title>Kyoto Tours</title>
+</head>
+<body>
+
+
+<!-- *************** BODY *******************-->
+<div class="wrapper">
+<div id="page">
+	<div id="logo">
+		<h3>	Kyoto Tours </h3>
+		<small class="text-muted">- Experience it the best way!</small>
+	</div>	<div id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="book.html">Book Tour</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>	
+	</div>
+
+	<div id="content">
+
+	<br>
+	<h2>Book tour</h2>
+	<p class="p-text">
+		Welcome to Kyoto Tours! We give guided tours 7 days a week! 
+	</p>
+	<p> 
+		Choose between our four top guided tours in Kyoto:<br>
+		<ul>
+			<li>Arashiyama Bamboo Grove and Monkey Park
+			<li>Kiyomizu-dera and Gion "Geisha District"
+			<li>The Golden Pavilion
+			<li>Fushimi Inari
+		</ul>
+
+	</p>
+	
+	<!-- ************* FORM ************** -->
+<fieldset>
+	
+	
+
+
+	<form method="POST" action="action.php">
+	<br>
+  	<span class="required">*</span> = required.
+  	<br>
+	<br>	
+
+	  <div class="form-group">
+	   <b>Surname: </b><span class="required">*</span> <br>
+	  <input type="text" name="surname" placeholder="Surname"  autofocus required >
+
+	  </div>
+
+ <div class="form-group">
+	  <b>Givenname:</b> <span class="required">*</span> <br>
+	  <input type="text" name="givenname" placeholder="givenname"  required>
+	  </div>
+
+ <div class="form-group">
+	  <b>Date:</b> <span class="required">*</span> <br>
+	  <input type="datetime-local" name="date"  >
+	  <i>We give tours seven days a week!</i>
+	  </div>
+ <div class="form-group">
+	  <b>Email:</b> <span class="required">*</span> <br>
+	  <input type="email" name="email" placeholder="example@mail.com" required>
+	  </div>
+
+<div class="form-group">
+	 <b>Time:</b> <span class="required">*</span> <br>
+	  <input type="radio" name="time" value="09:00" checked>09:00<br>
+	  <input type="radio" name="time" value="12:00" >12:00<br>
+	  <input type="radio" name="time" value="15:00" >15:00<br>
+</div>
+
+ <div class="form-group">
+	  <b>Tours:</b> <span class="required">*</span> <br>
+	  <select name="tours" placeholder= "Select your guided tour..." required>
+	  	<option value="arashiyama">Arashiyama Bamboo Grove and Monkey Park</option>
+	  	<option value="gion">Kiyomizu-dera and Gion "Geisha District"</option>
+	  	<option value="kinkakuji">The Golden Pavilion</option>
+	  	<option value="fushimiinari">Fushimi Inari</option>
+	  </select>
+	  </div>
+
+  <a href="index.html"><input type="submit" name="submit" value="Submit"></a>
+	 
+	  
+
+</form> 
+</fieldset>
+<!-- ************* FORM END************** -->
+
+</div>	
+	
+<div id="footer">
+	<p>
+		This webpage was made by  <a href="/" target="_blank">[My T. Nguyen]</a> Department of Social Informatics, 6992-28-9186
+	</p>
+</div>
+</div>
+</div> <!-- Div Wrapper -->
+</body>
+</html>

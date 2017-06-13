@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="My Thao Nguyen" />
+	<meta name="description" content="A Japan Travel Tour site" />
+
+	<!-- CSS LINK -->
+	 <link href="styles.css" rel="stylesheet">
+	<title>Japan Travels</title>
+</head>
+<body>
+<!-- *************** BODY *******************-->
+</div>
+<div class="wrapper">
+
+<div id="page">
+	<div id="logo">
+		<h3>	Kyoto Tours </h3>
+		<small class="text-muted">- Experience it the best way!</small>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="book.html">Book Tour</a></li>
+			<li><a href="about.html">About us</a></li>
+		</ul>	
+	</div>
+
+	<div id="content">
+	<!-- ************* PIC SLIDES ************** -->
+	<img class="mySlides" src="pictures/geisha.jpg" >
+	<img class="mySlides" src="pictures/osaka.jpg">
+	<img class="mySlides" src="pictures/bamboogrove.jpg">
+	<img class="mySlides" src="pictures/fushimi.jpg">
+
+	<script>
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		      x[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex > x.length) {slideIndex = 1} 
+		    x[slideIndex-1].style.display = "block"; 
+		    setTimeout(carousel, 2500); // Change image every 2 seconds
+		}
+	</script>
+	<!-- ************* PIC SLIDES END ************** -->
+	<br>
+	<h2>Welcome to Kyoto tours!</h2>
+	<p class="p-text">
+		This is a page for tours in Kyoto! 
+	</p>
+	<p> 
+		Please feel free to book your tour here!
+	</p>
+	</div>
+
+		
+	
+<div id="footer">
+	<p>
+		This webpage was made by  <a href="/" target="_blank">[My T. Nguyen]</a> Department of Social Informatics, 6992-28-9186
+	</p>
+</div>
+</div>
+</div> <!-- Div Wrapper -->
+</body>
+</html>

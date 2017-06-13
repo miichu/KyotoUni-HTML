@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- CSS LINK -->
+	 <link href="mystyles.css" rel="stylesheet">
+	<title>Index</title>
+</head>
+<body>
+
+<h1>Assignment 2 <i>- Input forms</i></h1> 
+
+<form action="action.php" method="POST">
+  <fieldset>
+  	  <legend>Please fill in the form</legend>
+   	  <p><label class="field" for="Name">
+	  <span class="required">*</span> 
+	  Name:  </label>
+	  <input type="text" name="Name" placeholder="Name"  autofocus required> 
+	  <br>
+	  </p>
+	  <p>
+	  <label class="field" for="Bday">
+	  Birthday:</label>
+	  <input type="date" name="Bday" >
+	  <br>
+	  </p>
+
+	 <p>
+	  <label class="field" for="Email">
+	  <span class="required">*</span> 
+	  Email:</label>
+	  <input type="email" name="Email" placeholder="example@mail.com" required>
+	  <br>
+
+	   <p>
+	  <label class="field" for="Address">
+	  Address:</label>
+	  <input type="Text" name="Address" placeholder="Kyoto" >
+	  <br>
+	  
+	  </p>
+	  <span class="submit">
+	  <input type="submit" name="submit" value="Submit">
+	  </span>
+
+  </fieldset>
+</form> 
+
+</body>
+</html>
